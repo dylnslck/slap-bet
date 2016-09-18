@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background: url('bg.jpg');
+  background-size: cover;
+}
+
+#wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+#pic img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.flip-clock-label {
+  color: rgba(255, 255, 255, 0.7) !important;
+}

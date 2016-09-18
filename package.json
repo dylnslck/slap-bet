@@ -1,0 +1,23 @@
+{
+  "name": "slap-bet",
+  "version": "0.0.1",
+  "description": "A slap bet countdown timer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylnslck/slap-bet.git"
+  },
+  "author": "Dylan Slack <dylanslack@gmail.com> (http://www.dylanslack.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylnslck/slap-bet/issues"
+  },
+  "homepage": "https://github.com/dylnslck/slap-bet#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "twilio": "^2.9.3"
+  }
+}
